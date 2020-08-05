@@ -1,3 +1,4 @@
+using System.Reflection.Metadata;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,9 @@ namespace Services.NetCore.WebApi
             services.AddDbContext<Context>(options =>
                options.UseMySQL(Configuration.GetConnectionString("DefaultConectionString")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllersWithViews().AddNewtonsoftJson();
+            services.AddRazorPages().AddNewtonsoftJson();
 
 
             services.AddScoped(typeof(IQueryableUnitOfWork), typeof(Context));

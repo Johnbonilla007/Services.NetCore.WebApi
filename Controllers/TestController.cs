@@ -27,7 +27,7 @@ namespace WebServices.NetCore.Criostasis.Controllers
         {
             List<ProduceDto> response = _produceAppService.GetProducts(new ProduceRequest());
 
-            return Ok(Response);
+            return Ok(response);
         }
 
         [HttpPost]

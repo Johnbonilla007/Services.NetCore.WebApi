@@ -4,7 +4,6 @@ C:\Projects\Services.NetCore.WebApi\obj\Debug\netcoreapp3.1\Services.NetCore.Web
 C:\Projects\Services.NetCore.WebApi\obj\Debug\netcoreapp3.1\Services.NetCore.WebApi.csproj.CoreCompileInputs.cache
 C:\Projects\Services.NetCore.WebApi\obj\Debug\netcoreapp3.1\Services.NetCore.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\Services.NetCore.WebApi\obj\Debug\netcoreapp3.1\Services.NetCore.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\Services.NetCore.WebApi\bin\Debug\netcoreapp3.1\appsettings copy.json
 C:\Projects\Services.NetCore.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Projects\Services.NetCore.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Projects\Services.NetCore.WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

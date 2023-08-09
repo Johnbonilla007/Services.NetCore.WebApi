@@ -1,5 +1,6 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
+using Services.NetCore.WebApi.Infraestructure.Core.RestClient;
 using WebServices.NetCore.Criostasis;
 using WebServices.NetCore.Criostasis.AplicationServices.Produce;
 using WebServices.NetCore.Criostasis.Infraestructure.Data.UnitOfWork;
@@ -33,14 +34,17 @@ namespace Services.NetCore.WebApi.DependencyInjection
 
         private void InitializeApplicationServices()
         {
+            _services.AddTransient(typeof(IProduceAppService), typeof(ProduceAppService));
+            _services.AddTransient(typeof(IRestClientFactory), typeof(HttpRestClientFactory));
+            _services.AddTransient(typeof(IRestClient), typeof(HttpRestClient));
 
-            _services.AddScoped(typeof(IProduceAppService), typeof(ProduceAppService));
-
+            var clientFactory = new HttpRestClientFactory();
+            RestClientFactory.SetCurrent(clientFactory);
         }
 
         private void InitializeUnitsOfWork()
         {
-            _services.AddScoped(typeof(IQueryableUnitOfWork), typeof(Context));
+            _services.AddTransient(typeof(IQueryableUnitOfWork), typeof(DataContext));
         }
     }
 }

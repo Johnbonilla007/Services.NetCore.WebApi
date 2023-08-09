@@ -1,7 +1,7 @@
-using WebServices.NetCore.Criostasis.Domain.Core;
 using System;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using WebServices.NetCore.Criostasis.Domain.Core;
 
 namespace WebServices.NetCore.Criostasis.Domain.Aggregates
 {

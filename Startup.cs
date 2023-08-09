@@ -1,22 +1,19 @@
 using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Services.NetCore.WebApi.DependencyInjection;
-using WebServices.NetCore.Criostasis;
-using WebServices.NetCore.Criostasis.AplicationServices.Produce;
 using WebServices.NetCore.Criostasis.Infraestructure.Data.UnitOfWork;
 
 namespace Services.NetCore.WebApi
 {
     public class Startup
     {
-
         readonly string MyAllowSpecificOrigins = "*";
         public Startup(IConfiguration configuration)
         {
@@ -29,13 +26,14 @@ namespace Services.NetCore.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             //Context Of Data
-            services.AddDbContext<Context>(options =>
-            options.UseMySQL(GetConnectionString()));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddDbContext<DataContext>(options =>
+                        options.UseSqlServer(GetConnectionString(),
+                        //options.UseMySQL(GetConnectionString())),
+                        x => x.MigrationsHistoryTable(HistoryRepository.DefaultTableName, "EfCore_dbo")));
+
 
             //Dependency Injection
             new Container(services);
-
 
             //Enable Cors
             services.AddCors(options =>
@@ -59,8 +57,8 @@ namespace Services.NetCore.WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "POS API",
-                    Description = "A simple example ASP.NET Core Web API",
+                    Title = "Services.NetCore.WebApi",
+                    Description = "This application is using .net core version 6",
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
@@ -108,7 +106,7 @@ namespace Services.NetCore.WebApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Caracolknits Boilerplate Api");
                 c.RoutePrefix = string.Empty;
             });
         }

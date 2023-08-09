@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
           "https://nuget.devexpress.com/gNX2IaqkGqZLp9FDRjZLgaENpucUkmv55rCYkyhnMKbA1hER7I/api": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -44,24 +44,42 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "MySql.Data.EntityFrameworkCore": {
+            "EPPlus": {
               "target": "Package",
-              "version": "[8.0.20, )"
+              "version": "[6.2.4, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.0-rc2, )"
+              "version": "[6.4.0, )"
             },
-            "System.Configuration.ConfigurationManager": {
+            "Z.EntityFramework.Plus.EFCore": {
               "target": "Package",
-              "version": "[4.6.0-rc1.19456.4, )"
-            },
-            "System.Data.Entity.Repository": {
-              "target": "Package",
-              "version": "[2.0.0.1, )"
+              "version": "[6.16.1, )"
             }
           },
           "imports": [

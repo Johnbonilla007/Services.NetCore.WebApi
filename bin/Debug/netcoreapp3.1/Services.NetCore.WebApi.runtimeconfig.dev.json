@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\JBoni\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\JBoni\\.nuget\\packages"
-    ]
-  }
-}

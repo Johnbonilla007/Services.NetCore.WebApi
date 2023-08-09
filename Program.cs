@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Services.NetCore.WebApi;
 
 namespace Services.NetCore.WebApi
 {

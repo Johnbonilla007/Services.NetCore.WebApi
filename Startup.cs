@@ -31,7 +31,7 @@ namespace Services.NetCore.WebApi
             //Context Of Data
             services.AddDbContext<Context>(options =>
             options.UseMySQL(GetConnectionString()));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             //Dependency Injection
             new Container(services);

@@ -1,0 +1,7 @@
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.csproj.AssemblyReference.cache
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.AssemblyInfoInputs.cache
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.AssemblyInfo.cs
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.csproj.CoreCompileInputs.cache
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\Services.NetCore.WebApi\obj\Release\netcoreapp3.1\linux-x64\Services.NetCore.WebApi.MvcApplicationPartsAssemblyInfo.cache

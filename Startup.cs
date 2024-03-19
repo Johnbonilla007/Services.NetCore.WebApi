@@ -54,11 +54,11 @@ namespace Services.NetCore.WebApi
             //Configuration Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo
+                c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Version = "v1",
+                    Version = "v2",
                     Title = "Services.NetCore.WebApi",
-                    Description = "This application is using .net core version 6",
+                    Description = "This application is using .net core version 7",
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {

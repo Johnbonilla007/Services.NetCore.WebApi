@@ -1,0 +1,12 @@
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\bin\Debug\net7.0\Services.NetCore.Application.deps.json
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\bin\Debug\net7.0\Services.NetCore.Application.dll
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\bin\Debug\net7.0\Services.NetCore.Application.pdb
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.csproj.AssemblyReference.cache
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.AssemblyInfoInputs.cache
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.AssemblyInfo.cs
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.dll
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\refint\Services.NetCore.Application.dll
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\Services.NetCore.Application.pdb
+C:\Users\JBoni\Source\Repos\Services.NetCore.Application\obj\Debug\net7.0\ref\Services.NetCore.Application.dll

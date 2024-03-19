@@ -86,9 +86,10 @@ C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\staticwebas
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\scopedcss\bundle\Services.NetCore.WebApi.styles.css
-C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.NetCore.WebApi.csproj.CopyComplete
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.NetCore.WebApi.dll
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\refint\Services.NetCore.WebApi.dll
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.NetCore.WebApi.pdb
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.NetCore.WebApi.genruntimeconfig.cache
 C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\ref\Services.NetCore.WebApi.dll
+C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.NetCore.WebApi.sourcelink.json
+C:\Users\JBoni\Source\Repos\Services.NetCore.WebApi\obj\Debug\net7.0\Services.A6AFC119.Up2Date

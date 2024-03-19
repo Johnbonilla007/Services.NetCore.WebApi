@@ -106,7 +106,7 @@ namespace Services.NetCore.WebApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Caracolknits Boilerplate Api");
+                c.SwaggerEndpoint("/swagger/v2/swagger.json", "Caracolknits Boilerplate Api");
                 c.RoutePrefix = string.Empty;
             });
         }

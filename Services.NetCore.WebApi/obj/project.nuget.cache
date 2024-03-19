@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I6kG5tRymbQ0Uafuq4VJ/5q/Y0XurH6TqYLgZI/Wjp1Uj7iqW+37KB9XNQ8Kc18dGpoK8CJHeleLKNwCW0S//A==",
+  "dgSpecHash": "waohThEtZ40VDjt9smg6OUVsYtDrz/1tEupzNDJKtemWwTFRbs/M4dHf3g2ST9+u/rjzjLwfejDUZl7erYrk4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JBoni\\Source\\Repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JBoni\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\JBoni\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

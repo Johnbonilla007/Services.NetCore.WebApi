@@ -6990,11 +6990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JBoni\\Source\\Repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
       "projectName": "Services.NetCore.WebApi",
-      "projectPath": "C:\\Users\\JBoni\\Source\\Repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
+      "projectPath": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi\\Services.NetCore.WebApi.csproj",
       "packagesPath": "C:\\Users\\JBoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JBoni\\Source\\Repos\\Services.NetCore.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

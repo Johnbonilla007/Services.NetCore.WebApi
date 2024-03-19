@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.NetCore.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03759c286e5ea422f9f818950cc990e6b26beba6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.NetCore.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.NetCore.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

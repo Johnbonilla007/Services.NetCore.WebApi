@@ -1,0 +1,12 @@
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\bin\Release\net8.0\Services.NetCore.Crosscutting.deps.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\bin\Release\net8.0\Services.NetCore.Crosscutting.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\bin\Release\net8.0\Services.NetCore.Crosscutting.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.AssemblyInfoInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.AssemblyInfo.cs
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.sourcelink.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\refint\Services.NetCore.Crosscutting.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\Services.NetCore.Crosscutting.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Crosscutting\obj\Release\net8.0\ref\Services.NetCore.Crosscutting.dll

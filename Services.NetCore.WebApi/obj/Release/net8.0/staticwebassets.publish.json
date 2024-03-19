@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8ELotGlHE6ks2b8eV0Az68yzbGSMbJZMCK6634caYXk=",
+  "Source": "Services.NetCore.WebApi",
+  "BasePath": "_content/Services.NetCore.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

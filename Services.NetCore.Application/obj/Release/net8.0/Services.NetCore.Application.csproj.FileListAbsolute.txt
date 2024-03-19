@@ -1,0 +1,12 @@
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Release\net8.0\Services.NetCore.Application.deps.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Release\net8.0\Services.NetCore.Application.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Release\net8.0\Services.NetCore.Application.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.AssemblyInfoInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.AssemblyInfo.cs
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.sourcelink.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\refint\Services.NetCore.Application.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\Services.NetCore.Application.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Release\net8.0\ref\Services.NetCore.Application.dll

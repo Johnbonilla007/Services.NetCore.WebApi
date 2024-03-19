@@ -58,7 +58,7 @@ namespace Services.NetCore.WebApi
                 {
                     Version = "v2",
                     Title = "Services.NetCore.WebApi",
-                    Description = "This application is using .net core version 7",
+                    Description = "This application is using .net core version 8",
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
@@ -106,7 +106,7 @@ namespace Services.NetCore.WebApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v2/swagger.json", "Caracolknits Boilerplate Api");
+                c.SwaggerEndpoint("/swagger/v2/swagger.json", "Services NetCore WebApi");
                 c.RoutePrefix = string.Empty;
             });
         }

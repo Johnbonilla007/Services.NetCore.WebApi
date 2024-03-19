@@ -1,0 +1,12 @@
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\bin\Debug\net8.0\Services.NetCore.Infraestructure.deps.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\bin\Debug\net8.0\Services.NetCore.Infraestructure.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\bin\Debug\net8.0\Services.NetCore.Infraestructure.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.AssemblyInfo.cs
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.sourcelink.json
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\refint\Services.NetCore.Infraestructure.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\Services.NetCore.Infraestructure.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Infraestructure\obj\Debug\net8.0\ref\Services.NetCore.Infraestructure.dll

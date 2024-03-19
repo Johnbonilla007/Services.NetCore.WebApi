@@ -2092,6 +2092,26 @@
             "related": ".xml"
           }
         }
+      },
+      "Services.NetCore.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Services.NetCore.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.NetCore.Application.dll": {}
+        }
+      },
+      "Services.NetCore.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Services.NetCore.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.NetCore.Crosscutting.dll": {}
+        }
       }
     }
   },
@@ -6969,6 +6989,16 @@
         "z.expressions.eval.4.0.89.nupkg.sha512",
         "z.expressions.eval.nuspec"
       ]
+    },
+    "Services.NetCore.Application/1.0.0": {
+      "type": "project",
+      "path": "../Services.NetCore.Application/Services.NetCore.Application.csproj",
+      "msbuildProject": "../Services.NetCore.Application/Services.NetCore.Application.csproj"
+    },
+    "Services.NetCore.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Services.NetCore.Crosscutting/Services.NetCore.Crosscutting.csproj",
+      "msbuildProject": "../Services.NetCore.Crosscutting/Services.NetCore.Crosscutting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6979,6 +7009,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
+      "Services.NetCore.Application >= 1.0.0",
+      "Services.NetCore.Crosscutting >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Z.EntityFramework.Plus.EFCore >= 6.16.1"
     ]
@@ -7016,7 +7048,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.Application\\Services.NetCore.Application.csproj": {
+              "projectPath": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.Application\\Services.NetCore.Application.csproj"
+            },
+            "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.Crosscutting\\Services.NetCore.Crosscutting.csproj": {
+              "projectPath": "C:\\Users\\JBoni\\source\\repos\\Services.NetCore.WebApi\\Services.NetCore.Crosscutting\\Services.NetCore.Crosscutting.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

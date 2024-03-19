@@ -14,6 +14,8 @@
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
+          "Services.NetCore.Application": "1.0.0",
+          "Services.NetCore.Crosscutting": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Z.EntityFramework.Plus.EFCore": "6.16.1"
         },
@@ -1135,6 +1137,16 @@
             "fileVersion": "4.0.89.0"
           }
         }
+      },
+      "Services.NetCore.Application/1.0.0": {
+        "runtime": {
+          "Services.NetCore.Application.dll": {}
+        }
+      },
+      "Services.NetCore.Crosscutting/1.0.0": {
+        "runtime": {
+          "Services.NetCore.Crosscutting.dll": {}
+        }
       }
     }
   },
@@ -2004,6 +2016,16 @@
       "sha512": "sha512-Gf0osdm1qB7Kmm5x+pPndp11lOJZrP3iTOIWXDCAoD+m4Y7mE69BLtWgYBNiQHuYL6sY77D2TS8vscYqEu2t0Q==",
       "path": "z.expressions.eval/4.0.89",
       "hashPath": "z.expressions.eval.4.0.89.nupkg.sha512"
+    },
+    "Services.NetCore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services.NetCore.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -4,7 +4,7 @@ namespace Services.NetCore.Application.Produce
 {
     public interface IProduceAppService : IDisposable
     {
-        ProduceDto SaveProduce(ProduceRequest request);
-        List<ProduceDto> GetProducts(ProduceRequest request);
+        Task<ProduceDto> SaveProduce(ProduceRequest request);
+        Task<List<ProduceDto>> GetProducts(ProduceRequest request);
     }
 }

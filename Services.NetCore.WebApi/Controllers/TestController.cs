@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Services.NetCore.Application.Produce;
 using Services.NetCore.Crosscutting.Dtos.Produce;
@@ -21,20 +22,20 @@ namespace Services.NetCore.WebApi.Controllers
 
         [HttpGet]
         [Route("")]
-        public IActionResult GetProducts()
+        public async Task<IActionResult> GetProducts()
         {
-            List<ProduceDto> response = _produceAppService.GetProducts(new ProduceRequest());
+            List<ProduceDto> response = await _produceAppService.GetProducts(new ProduceRequest());
 
             return Ok(response);
         }
 
         [HttpPost]
         [Route("")]
-        public IActionResult SaveProduct()
+        public async Task<IActionResult> SaveProduct(ProduceRequest request)
         {
-            ProduceDto response = _produceAppService.SaveProduce(new ProduceRequest());
+            ProduceDto response = await _produceAppService.SaveProduce(request);
 
-            return Ok(Response);
+            return Ok(response);
         }
 
 

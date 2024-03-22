@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.NetCore.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c71ce3bec84d130d76b2acbabaefae5504dfa7a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1942f7f05ae9eca90a1abd6c1dd7f171c5b671e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.NetCore.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.NetCore.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

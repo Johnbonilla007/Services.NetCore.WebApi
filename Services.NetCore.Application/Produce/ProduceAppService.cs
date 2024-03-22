@@ -1,3 +1,4 @@
+using AutoMapper;
 using Services.NetCore.Application.Core;
 using Services.NetCore.Crosscutting.Dtos.Produce;
 using Services.NetCore.Domain.Aggregates;
@@ -8,38 +9,33 @@ namespace Services.NetCore.Application.Produce
 {
     public class ProduceAppService : BaseAppService, IProduceAppService
     {
-        public ProduceAppService(IGenericRepository<IGenericDataContext> repository) : base(repository)
+        private readonly IMapper _mapper;
+
+        public ProduceAppService(IGenericRepository<IGenericDataContext> repository, IMapper mapper) : base(repository)
         {
+            _mapper = mapper;
         }
 
-        public List<ProduceDto> GetProducts(ProduceRequest request)
+        public async Task<List<ProduceDto>> GetProducts(ProduceRequest request)
         {
-            var products = _repository.GetAll<Product>().ToList();
+            var products = await _repository.GetAllAsync<Product>();
 
-            return new List<ProduceDto>();
+            return _mapper.Map<List<ProduceDto>>(products);
         }
 
-        public ProduceDto SaveProduce(ProduceRequest request)
+        public async Task<ProduceDto> SaveProduce(ProduceRequest request)
         {
             Product product = new Product
             {
-                PurchasePrice = 11,
-                Quantity = 12,
-                DatePurchase = DateTime.Now
+                PurchasePrice = request.PurchasePrice,
+                Quantity = request.Quantity,
+                DatePurchase = request.DatePurchase
             };
-            List<Product> products = new List<Product>();
 
-            products.Add(product);
-
-            _repository.AddRange(products);
-            _repository.UnitOfWork.Commit();
+            await _repository.AddAsync(product);
+            await _repository.UnitOfWork.CommitAsync();
 
             return new ProduceDto { Message = "Success" };
-        }
-
-        public void Dispose()
-        {
-            _repository.Dispose();
         }
     }
 }

@@ -10,3 +10,11 @@ C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Debug\net8.0\refint\Services.NetCore.Application.dll
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Debug\net8.0\Services.NetCore.Application.pdb
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Debug\net8.0\ref\Services.NetCore.Application.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Crosscutting.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Domain.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Infraestructure.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Crosscutting.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Domain.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\bin\Debug\net8.0\Services.NetCore.Infraestructure.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Debug\net8.0\Services.NetCore.Application.csproj.AssemblyReference.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Application\obj\Debug\net8.0\Services.F07FDD03.Up2Date

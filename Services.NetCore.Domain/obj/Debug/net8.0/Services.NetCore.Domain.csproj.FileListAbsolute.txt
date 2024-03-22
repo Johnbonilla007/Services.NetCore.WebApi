@@ -10,3 +10,7 @@ C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\Debug\net8.0\refint\Services.NetCore.Domain.dll
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\Debug\net8.0\Services.NetCore.Domain.pdb
 C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\Debug\net8.0\ref\Services.NetCore.Domain.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\bin\Debug\net8.0\Services.NetCore.Crosscutting.dll
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\bin\Debug\net8.0\Services.NetCore.Crosscutting.pdb
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\Debug\net8.0\Services.NetCore.Domain.csproj.AssemblyReference.cache
+C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.Domain\obj\Debug\net8.0\Services.7DBE6EC9.Up2Date

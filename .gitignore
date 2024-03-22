@@ -12,3 +12,4 @@
 /Services.NetCore.Crosscutting/obj
 /Services.NetCore.Test/obj
 /Services.NetCore.WebApi/obj
+/Services.NetCore.Domain/obj

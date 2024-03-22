@@ -1,1 +1,14 @@
 /.vs
+/bin/debug/net8.0
+/Services.NetCore.Application/bin
+/Services.NetCore.Domain/bin
+/Services.NetCore.Infraestructure/bin
+/Services.NetCore.Crosscutting/bin
+/Services.NetCore.Test/bin
+/Services.NetCore.WebApi/bin
+/Services.NetCore.Application/obj
+/Services.NetCore.Domain/obj
+/Services.NetCore.Infraestructure/obj
+/Services.NetCore.Crosscutting/obj
+/Services.NetCore.Test/obj
+/Services.NetCore.WebApi/obj

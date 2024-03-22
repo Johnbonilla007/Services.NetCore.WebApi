@@ -7,8 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Services.NetCore.Infraestructure.Data.UnitOfWork;
 using Services.NetCore.WebApi.DependencyInjection;
-using WebServices.NetCore.Criostasis.Infraestructure.Data.UnitOfWork;
 
 namespace Services.NetCore.WebApi
 {
@@ -27,9 +27,9 @@ namespace Services.NetCore.WebApi
         {
             //Context Of Data
             services.AddDbContext<DataContext>(options =>
-                        options.UseSqlServer(GetConnectionString(),
-                        //options.UseMySQL(GetConnectionString())),
-                        x => x.MigrationsHistoryTable(HistoryRepository.DefaultTableName, "EfCore_dbo")));
+                                           options.UseSqlServer(GetConnectionString(),
+                                           x => x.MigrationsHistoryTable(HistoryRepository.DefaultTableName, "EfCore_dbo")
+                                           .MigrationsAssembly("Services.NetCore.WebApi")));
 
 
             //Dependency Injection
@@ -77,7 +77,7 @@ namespace Services.NetCore.WebApi
 
         private string GetConnectionString()
         {
-            return Configuration.GetConnectionString("DefaultConectionString");
+            return Configuration.GetConnectionString("DefaultConnectionString");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

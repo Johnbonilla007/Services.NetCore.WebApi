@@ -1,15 +1,22 @@
 using System;
+using AutoMapper;
+using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using Services.NetCore.WebApi.Infraestructure.Core.RestClient;
-using WebServices.NetCore.Criostasis;
-using WebServices.NetCore.Criostasis.AplicationServices.Produce;
-using WebServices.NetCore.Criostasis.Infraestructure.Data.UnitOfWork;
+using Services.NetCore.Infraestructure.Core;
+using Services.NetCore.Infraestructure.Data.UnitOfWork.Data.Core;
+using Services.NetCore.Infraestructure.Data.UnitOfWork;
+using System.Linq;
 
 namespace Services.NetCore.WebApi.DependencyInjection
 {
     public class Container
     {
         private readonly IServiceCollection _services;
+        private enum DependencyInjectionTypes
+        {
+            ApplicationServices,
+            DomainServices
+        };
         public Container(IServiceCollection services)
         {
             if (services == null) throw new ArgumentException(nameof(services));
@@ -17,34 +24,68 @@ namespace Services.NetCore.WebApi.DependencyInjection
             _services = services;
 
             InitializeUnitsOfWork();
-            InitializeApplicationServices();
             InitializeDomainServices();
+            InitializeApplicationServices();
             InitializeRepositories();
         }
 
         private void InitializeRepositories()
         {
             _services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            _services.AddSingleton(mapper);
         }
 
         private void InitializeDomainServices()
         {
-
+            CreateDependencyInjection(DependencyInjectionTypes.DomainServices);
         }
 
         private void InitializeApplicationServices()
         {
-            _services.AddTransient(typeof(IProduceAppService), typeof(ProduceAppService));
-            _services.AddTransient(typeof(IRestClientFactory), typeof(HttpRestClientFactory));
-            _services.AddTransient(typeof(IRestClient), typeof(HttpRestClient));
+            CreateDependencyInjection(DependencyInjectionTypes.ApplicationServices);
 
-            var clientFactory = new HttpRestClientFactory();
-            RestClientFactory.SetCurrent(clientFactory);
+            //_services.AddScoped(typeof(IRestClientFactory), typeof(HttpRestClientFactory));
+            //_services.AddScoped(typeof(IRestClient), typeof(HttpRestClient));
+            //var clientFactory = new HttpRestClientFactory();
+
+            //RestClientFactory.SetCurrent(clientFactory);
+        }
+
+        private void CreateDependencyInjection(DependencyInjectionTypes dependencyInjectionType)
+        {
+            string projectClassLibrary = dependencyInjectionType == DependencyInjectionTypes.ApplicationServices ? "Services.NetCore.Application" : "Services.NetCore.Domain";
+
+            string servicesType = dependencyInjectionType == DependencyInjectionTypes.ApplicationServices ? "AppService" : "DomainService";
+
+
+            var services = Assembly.Load(projectClassLibrary)
+                                   .GetTypes()
+                                   .Where(type => type.Name.EndsWith(servicesType) || type.Name.EndsWith("Service")).ToList();
+
+            var interfaces = services.Where(x => x.IsInterface);
+
+            var implementations = services.Where(x => !x.IsInterface);
+
+            foreach (var item in interfaces)
+            {
+                var implementationType = implementations.FirstOrDefault(type => type.Name == item.Name[1..]); // Remove 'I' from the interface name
+
+                if (implementationType != null)
+                {
+                    _services.AddScoped(item, implementationType);
+                }
+            }
         }
 
         private void InitializeUnitsOfWork()
         {
-            _services.AddTransient(typeof(IQueryableUnitOfWork), typeof(DataContext));
+            _services.AddScoped(typeof(IQueryableUnitOfWork), typeof(DataContext));
         }
     }
 }

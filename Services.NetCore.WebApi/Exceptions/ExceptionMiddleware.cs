@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
-using Services.NetCore.WebApi.Domain.Core;
-using WebServices.NetCore.Criostasis;
+using Services.NetCore.Domain.Aggregates.Exceptions;
+using Services.NetCore.Domain.Core;
+using Services.NetCore.Infraestructure.Core;
+using Services.NetCore.Infraestructure.Data.UnitOfWork;
 
 namespace Services.NetCore.WebApi.Exceptions
 {

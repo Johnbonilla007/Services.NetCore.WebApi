@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using WebServices.NetCore.Criostasis.AplicationServices.Core.DTOs;
-using WebServices.NetCore.Criostasis.AplicationServices.Core.Requests;
-using WebServices.NetCore.Criostasis.AplicationServices.Produce;
+using Services.NetCore.Application.Produce;
+using Services.NetCore.Crosscutting.Dtos.Produce;
 
-namespace WebServices.NetCore.Criostasis.Controllers
+namespace Services.NetCore.WebApi.Controllers
 {
     [ApiController]
     [Route("api/v1/test1")]

@@ -3,7 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.NetCore.Crosscutting\Services.NetCore.Crosscutting.csproj" />
+    <ProjectReference Include="..\Services.NetCore.Domain\Services.NetCore.Domain.csproj" />
+    <ProjectReference Include="..\Services.NetCore.Infraestructure\Services.NetCore.Infraestructure.csproj" />
+  </ItemGroup>
 
 </Project>

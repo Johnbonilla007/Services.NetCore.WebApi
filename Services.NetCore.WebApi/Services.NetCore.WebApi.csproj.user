@@ -4,7 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>Services.NetCore.WebApi</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>C:\Users\JBoni\source\repos\Services.NetCore.WebApi\Services.NetCore.WebApi\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

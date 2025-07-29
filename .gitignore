@@ -29,6 +29,7 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
+[Oo]ut/
 [Ll]og/
 [Ll]ogs/
 
@@ -360,40 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/Services.NetCore.WebApi/bin/Debug/net8.0/Services.NetCore.Application.dll
-/Services.NetCore.WebApi/bin/Debug/net8.0/Services.NetCore.WebApi.dll
-/Services.NetCore.WebApi/bin/*
-/Services.NetCore.WebApi/obj/*
-/Services.NetCore.Application/obj/Debug/net8.0/Services.NetCore.Application.AssemblyInfo.cs
-/Services.NetCore.Application/obj/Debug/net8.0/Services.NetCore.Application.AssemblyInfoInputs.cache
-/Services.NetCore.Application/obj/Debug/net8.0/Services.NetCore.Application.assets.cache
-/Services.NetCore.Crosscutting/obj/Debug/net8.0/Services.NetCore.Crosscutting.AssemblyInfo.cs
-/Services.NetCore.Crosscutting/obj/Debug/net8.0/Services.NetCore.Crosscutting.AssemblyInfoInputs.cache
-/Services.NetCore.Crosscutting/obj/Debug/net8.0/Services.NetCore.Crosscutting.assets.cache
-/Services.NetCore.Domain/obj/Debug/net8.0/Services.NetCore.Domain.AssemblyInfo.cs
-/Services.NetCore.Domain/obj/Debug/net8.0/Services.NetCore.Domain.AssemblyInfoInputs.cache
-/Services.NetCore.Domain/obj/Debug/net8.0/Services.NetCore.Domain.assets.cache
-/Services.NetCore.Infraestructure/obj/Debug/net8.0/Services.NetCore.Infraestructure.AssemblyInfo.cs
-/Services.NetCore.Infraestructure/obj/Debug/net8.0/Services.NetCore.Infraestructure.AssemblyInfoInputs.cache
-/Services.NetCore.Infraestructure/obj/Debug/net8.0/Services.NetCore.Infraestructure.assets.cache
-/Services.NetCore.Tests/obj/Debug/net8.0/Services.NetCore.Test.AssemblyInfo.cs
-/Services.NetCore.Tests/obj/Debug/net8.0/Services.NetCore.Test.AssemblyInfoInputs.cache
-/Services.NetCore.Tests/obj/Debug/net8.0/Services.NetCore.Test.assets.cache
-/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.AssemblyInfo.cs
-/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.AssemblyInfoInputs.cache
-/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.assets.cache
-/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.csproj.AssemblyReference.cache
-/Services.NetCore.Domain/obj/project.assets.json
-/Services.NetCore.Domain/obj/project.nuget.cache
-/Services.NetCore.Domain/obj/Services.NetCore.Domain.csproj.nuget.dgspec.json
-/Services.NetCore.Domain/obj/Services.NetCore.Domain.csproj.nuget.g.props
-/Services.NetCore.Infraestructure/obj/project.assets.json
-/Services.NetCore.Infraestructure/obj/project.nuget.cache
-/Services.NetCore.Infraestructure/obj/Services.NetCore.Infraestructure.csproj.nuget.dgspec.json
-/Services.NetCore.Infraestructure/obj/Services.NetCore.Infraestructure.csproj.nuget.g.props
-/Services.NetCore.Tests/obj/Debug/net8.0/Services.NetCore.Test.GeneratedMSBuildEditorConfig.editorconfig
-/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-/Services.NetCore.WebApi/obj/project.assets.json
-/Services.NetCore.WebApi/obj/project.nuget.cache
-/Services.NetCore.WebApi/obj/Services.NetCore.WebApi.csproj.nuget.dgspec.json
-/Services.NetCore.WebApi/obj/Services.NetCore.WebApi.csproj.nuget.g.props

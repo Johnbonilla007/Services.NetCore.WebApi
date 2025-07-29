@@ -383,3 +383,17 @@ FodyWeavers.xsd
 /Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.AssemblyInfoInputs.cache
 /Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.assets.cache
 /Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.csproj.AssemblyReference.cache
+/Services.NetCore.Domain/obj/project.assets.json
+/Services.NetCore.Domain/obj/project.nuget.cache
+/Services.NetCore.Domain/obj/Services.NetCore.Domain.csproj.nuget.dgspec.json
+/Services.NetCore.Domain/obj/Services.NetCore.Domain.csproj.nuget.g.props
+/Services.NetCore.Infraestructure/obj/project.assets.json
+/Services.NetCore.Infraestructure/obj/project.nuget.cache
+/Services.NetCore.Infraestructure/obj/Services.NetCore.Infraestructure.csproj.nuget.dgspec.json
+/Services.NetCore.Infraestructure/obj/Services.NetCore.Infraestructure.csproj.nuget.g.props
+/Services.NetCore.Tests/obj/Debug/net8.0/Services.NetCore.Test.GeneratedMSBuildEditorConfig.editorconfig
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Services.NetCore.WebApi/obj/project.assets.json
+/Services.NetCore.WebApi/obj/project.nuget.cache
+/Services.NetCore.WebApi/obj/Services.NetCore.WebApi.csproj.nuget.dgspec.json
+/Services.NetCore.WebApi/obj/Services.NetCore.WebApi.csproj.nuget.g.props

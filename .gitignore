@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Services.NetCore.Application/obj/Debug/net8.0/Services.NetCore.Application.csproj.FileListAbsolute.txt
+/Services.NetCore.Domain/obj/Debug/net8.0/Services.NetCore.Domain.csproj.FileListAbsolute.txt
+/Services.NetCore.Infraestructure/obj/Debug/net8.0/Services.NetCore.Infraestructure.csproj.FileListAbsolute.txt
+/Services.NetCore.WebApi/obj/Debug/net8.0/ref/Services.NetCore.WebApi.dll
+/Services.NetCore.WebApi/obj/Debug/net8.0/refint/Services.NetCore.WebApi.dll
+/Services.NetCore.WebApi/obj/Debug/net8.0/apphost.exe
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.csproj.CoreCompileInputs.cache
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.csproj.FileListAbsolute.txt
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.dll
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.genruntimeconfig.cache
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.pdb
+/Services.NetCore.WebApi/obj/Debug/net8.0/Services.NetCore.WebApi.sourcelink.json
+/Services.NetCore.WebApi/obj/Debug/net8.0/staticwebassets.build.json
